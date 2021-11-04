@@ -8,5 +8,4 @@ function onInputChange(event) {
     if (event.currentTarget.value === '') {
         outputEl.textContent = 'Anonymous';
     }
-    return outputEl.textContent;
 }
